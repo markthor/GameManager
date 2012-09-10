@@ -66,6 +66,7 @@ public class View {
 		JFormattedTextField player2Box = new JFormattedTextField();
 		reportPanel.add(player1Box);
 		reportPanel.add(player2Box);
+		int korruption;
 		JComponent playerPanel = new JPanel();
 		playerPanel.setLayout(new BoxLayout(playerPanel, BoxLayout.PAGE_AXIS));
 		tabbedPane.addTab("Players", playerPanel);
